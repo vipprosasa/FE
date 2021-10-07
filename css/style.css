@@ -1,0 +1,372 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.toggle-right-side{
+    position: fixed;
+    right: 0px;
+    top: 70px;
+    width: 90px;
+    z-index: 99999;
+    text-align: center;
+    float: right !important;
+}
+
+.toggle-right-side span{
+    background: #0D1326;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #e6ebff;
+    border-radius: 50px;
+    font-size: 26px;
+    cursor: pointer;
+    opacity: .5;
+}
+
+.right-side{
+    width: 90px;
+    position: fixed;
+    height: 100%;
+    z-index: 1000;
+    right: 0px;
+    top: 0;
+    margin-top: 60px;
+    transition: all .5s ease-in-out;
+    overflow-y: auto;
+
+}
+
+.right-side-bar{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    padding: 40px 5px;
+    padding-top: 70px;
+    margin-bottom: 70px;
+    background: #0D1326;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+
+.right-side-btn{
+    border-top: 1px solid #41414d;
+    padding-top: 30px;
+}
+
+.right-side-btn span{
+    display: block;
+}
+
+.right-side-btn a{
+    display: block;
+    color: #e6ebff;
+    text-decoration: none;
+    line-height: 24px;
+    opacity: .6;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif !important;
+    
+}
+
+.fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    left: 0;
+    z-index: 9999;
+}
+
+.header{
+    background: #212121;
+}
+
+.header-title{
+    float: left;
+}
+
+.header-title a{
+    font-size: 1.2em;
+    color: #fff;
+    text-decoration: none;
+    padding: .5em 3em;
+    background: #84C639;
+    display: block;
+    font-family: 'Ubuntu', sans-serif !important;
+    margin: 0;
+}
+
+.header-search{
+    float: left;
+    width: 27%;
+    margin: .1em 0 0em 10em;
+}
+
+.header-search input[type="text"]{
+    outline: none;
+    padding: 10px;
+    color: #212121;
+    font-size: 14px;
+    width: 85%;
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+}
+
+.header-search input[type="submit"]{
+    outline: none;
+    padding: 10px 0 9px;
+    width: 15%;
+    border: 1px solid;
+    position: relative;
+    background: url(https://demo.w3layouts.com/demos_new/template_demo/20-07-2017/grocery_store-demo_Free/725976873/web/images/img-sp.png) no-repeat 14px 5px #FA1818;
+}
+
+.header-cart{
+    float: left;
+    margin-left: 7em;
+}
+
+.header-cart input{
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+    text-transform: capitalize;
+    padding: .5em 2.5em .5em 1em;
+    border: 1px solid #84c639;
+    margin: .35em 0 0;
+    background: url(https://demo.w3layouts.com/demos_new/template_demo/20-07-2017/grocery_store-demo_Free/725976873/web/images/cart.png) no-repeat 116px 9px;
+}
+
+.header-info{
+    float: left;
+    padding-left: 10em
+}
+
+.dropdown{
+    position: relative;
+}
+
+.header-info ul li{
+    list-style-type: none;
+}
+
+.header-info a{
+    display: block;
+    padding-top: 1em;
+    font-size: 1em;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif !important;
+    margin: 0;
+}
+
+.caret{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.header-dropdown-menu ul{
+    right: 0;
+    min-width: 130px;
+    text-align: center;
+    padding: 1.5em 0;
+    margin: 0;
+    left: auto;
+}
+
+.header-dropdown-menu ul li:first-child{
+    margin-bottom: .5em;
+}
+
+.header-dropdown-menu ul li a{
+    color: #999;
+    display: block;
+    text-decoration: none;
+}
+
+.header-contact{
+    float: right;
+}
+
+.header-contact h2{
+    font-family: 'Ubuntu', sans-serif !important;
+    margin: 0;
+}
+
+.header-contact h2 a{
+    font-size: .74em;
+    color: #fff;
+    padding: .5em 1.5em;
+    background: #FA1818;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-header{
+    padding: 4em 0 1em;
+}
+
+.nav-logo{
+    float: left;
+    margin-right: 7em;
+}
+
+.nav-logo a{
+    font-size: 1.5em;
+    color: #212121;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    background: url(https://demo.w3layouts.com/demos_new/template_demo/20-07-2017/grocery_store-demo_Free/725976873/web/images/img-sp.png) no-repeat 54px 6px;
+    line-height: 1;
+    height: 97px;
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+.nav-logo a span{
+    font-size: .3em;
+    display: block;
+    color: #FA1818;
+
+}
+
+.nav-middle{
+    float: left;
+    margin-top: 2.3em;
+}
+
+.nav-middle ul li{
+    display: inline-block;
+}
+
+.nav-middle li a{
+    color: #212121;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-middle li a:hover{
+    color: #FA1818;
+}
+.nav-middle li i{
+    padding: 0 2em;
+}
+
+.nav-number{
+    margin-left: 6em;
+    float: left;
+    margin-top: 2.3em;
+}
+
+.nav-number li{
+    display: inline-block;
+    color: #212121;
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: 2em;
+}
+
+.nav-number li i{
+    padding-right: 1em;
+}
+
+.nav-number li a{
+    color: #212121;
+    text-decoration: none;
+}
+
+.nav-number li a:hover{
+    color: #FA1818;
+
+}
+
+.nav-banner{
+    float: left;
+    width: 20%;
+    background: #f5f5f5;
+    position: absolute;
+}
+
+.navbar-new{
+    margin-bottom: 0;
+    border: none;
+    position: relative;
+}
+
+.navbar-nav{
+    float: none;
+    margin: 0;
+    border-top: 1px solid #B58F62;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.navbar-nav li a{
+    color: #212121;
+    padding: 10px 0px 10px 40px;
+    border-bottom: 1px dotted #CDCDCD;
+    display: block;
+    font-family: 'Ubuntu', sans-serif !important;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.navbar-nav li a:hover{
+    background-color: #84C639;
+    color: #fff;
+}
+
+.slide1{
+    background-color: red;
+}
+
+.banner-bot{
+    padding: 5em 0 !important;
+}
+
+.banner-right{
+    float: left;
+    width: 20%;
+}
+
+.banner-left{
+    float: left;
+    width: 80%;
+}
+
+.banner-img{
+    padding-left: 0;
+}
+
+.banner-img-inside{
+    position: relative;
+}
